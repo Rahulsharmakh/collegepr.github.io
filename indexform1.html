@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>aaf1</title>
+    <style>
+        body {
+            margin: 0%;
+            padding: 0%;
+        }
+        
+        #sl {
+            color: red;
+            text-align: center;
+            margin-left: 45%;
+            font-size: 35px;
+        }
+        
+        #header {
+            margin-left: 0px;
+            margin-top: 0%;
+            position: static;
+            background-color: rgba(9, 54, 255, 0.873);
+        }
+        
+        #header span {
+            text-align: right;
+            color: #fff;
+            padding-top: 0%;
+            font-size: 45px;
+            margin-left: 35%;
+        }
+        
+        #header img {
+            height: 80px;
+            border-radius: 40px;
+            margin-top: 5px;
+        }
+        
+        div.e1 {
+            text-align: center;
+            font-size: 35px;
+            text-decoration: underline;
+            text-decoration-color: blueviolet;
+        }
+        
+        .e2 {
+            text-align: center;
+            font-size: 30px;
+            margin-left: 42%;
+            text-decoration: underline;
+            text-decoration-color: blueviolet;
+        }
+        
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        
+        #a1 {
+            text-align: center;
+            text-decoration: underline;
+            text-decoration-color: blueviolet;
+            font-size: 35px;
+        }
+        
+        #a2 {
+            text-align: center;
+            font-size: 25px;
+            border: outset red;
+            color: rgb(140, 7, 7);
+            margin-left: 30%;
+            margin-right: 30%;
+        }
+        
+        fieldset {
+            margin-left: 25%;
+            margin-right: 22%;
+        }
+        
+        footer {
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+        
+        footer h3 {
+            text-decoration: underline;
+        }
+        
+        #sb {
+            background-color: red;
+            ;
+            color: white;
+            font-size: 15px;
+        }
+        
+        #rs {
+            background-color: red;
+            color: white;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="header">
+        <img src="logo.jpg"><span text-align="center">Rahul College</span>
+    </section><br><br>
+    <div id="a1">ADMISSION APPLICATION FORM</div><br><br>
+    <div id="a2"> <br> USER ID = RC2022025652 <br><br> PASSWORD = 92T3K <br><br>
+    </div><br><br>
+    <div id="a2"><br>- : ADMISSION APPLICATION NUMBER : - <br><br>202289654125 <br><br></div><br><br><br>
+    <div id="a2">
+        <br>PAGE 1 <br><br> PERSONAL DETAILS <br>
+        <br>
+    </div><br><br>
+    <form action="indexform2.html">
+        <fieldset>
+            <legend>PERSONAL DEATILS:</legend>
+            <span><u>Personal Details:-</u></span>
+            <table>
+                <tr>
+                    <td><br> Full Name:</td>
+                    <td><br><input type="text" id="fn" size="30"><span id="M1"></span></td>
+                </tr>
+                <tr>
+                    <td><br> First Name:</td>
+                    <td><br><input type="text" id="fnname" size="30"></td>
+                </tr>
+                <tr>
+                    <td><br> Middle Name:</td>
+                    <td><br><input type="text" id="sname" size="30"></td>
+                </tr>
+                <tr>
+                    <td><br> Last Name:</td>
+                    <td><br><input type="text" id="lname" size="30"></td>
+                </tr>
+                <tr>
+                    <td><br> Father Name:</td>
+                    <td><br><input type="text" id="mn" size="30"></td>
+                </tr>
+                <tr>
+                    <td><br> Mother Name:</td>
+                    <td><br><input type="text" id="fan" size="30"></td>
+                </tr>
+                <tr>
+                    <td><br> Date Of Birth:</td>
+                    <td><br><input type="date" id="dob"></td>
+                </tr>
+                <tr>
+                    <td><br> Category:</td>
+                    <td><br>
+                        <select>
+                            <option value="gen">GENRAL</option>
+                            <option value="obc">OBC</option>
+                            <option value="sc">SC</option>
+                            <option value="st">ST</option>
+                            <option value="other">OTHER</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+
+
+                    <tr>
+                        <td><br> Contact no:</td>
+                        <td><br><input type="tel" id="contact"></td>
+                    </tr>
+                    <tr>
+                        <td><br> E-Mail:</td>
+                        <td><br>
+                            <input type="mail" id="email">
+                        </td>
+                    </tr>
+                    <hr>
+            </table>
+            <table>
+                <hr> <span><u>Personal Details:-</u></span>
+                <tr>
+                    <td><br> Address:-
+                    </td>
+                    <td><br> <textarea name="add" id="add" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><br>City:</td>
+                    <td><br><input type="text" id="city"></td>
+                </tr>
+                <tr>
+                    <td><br>Pincode:</td>
+                    <td><br><input type="text" id="pin"></td>
+                </tr>
+                <tr>
+                    <td><br> Gurdian phone number:
+                    </td>
+                    <td><br><input type="tel" pattern="[0-9]{10}"></td>
+                </tr>
+                <tr>
+                    <td><br><br>
+                        <input type="submit" value="SAVE&NEXT" id="sb">
+                    </td>
+                    <td><br><br>
+                        <input type="reset" value="CANCLE" id="rs">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form><br><br><br><br>
+    <footer>
+        <br>
+        <span>This web is create for project  not a real .</span><br><br>
+        <span><sup>&copy;</sup> By Rahul Sharma</span>
+        <br>
+    </footer>
+</body>
+
+</html>
